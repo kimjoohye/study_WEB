@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<!--스타일 시트 -->
+<style type="text/css">
+
+</style>
+
+<title>Insert title here</title>
+<!--자바스크립트 코드 -->
+<script type="text/javascript">
+  window.onload = function() {
+	let list01 = docuement.querySelector('#box > ul > li');  
+  };
+</script>
+</head>
+<body>
+   <h2>요소선택</h2>
+   <hr/>
+   <div id="box">
+      <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+      </ul>
+   </div>
+   
+</body>
+</html>

@@ -1,0 +1,4 @@
+'use strict';
+
+let subject  = [11,13,'html', 'javascript', 'jquery'];
+console.log(`subject[0] : ${subject[0]}`);

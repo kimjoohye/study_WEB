@@ -1,0 +1,8 @@
+'use strict';
+
+// Date객체
+let dataObj = new Date();
+
+let dataInfo = {
+    year : dateObj.getFullYear(),
+}

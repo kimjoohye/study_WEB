@@ -1,0 +1,35 @@
+'use strict';
+
+let subject  = [11, 13,'html', 'javascript', 'jquery'];
+
+// subject[0] : 11
+console.log(`subject[0] : ${subject[0]}`);
+
+// 배열 길이 : subject.length : 5
+console.log(`subject.length : ${subject.length}`);
+
+// 값 설정
+subject[3] = 'JAVASCRIPT';
+// subject[3] : JAVASCRIPT
+console.log(`subject[3] : ${subject[3]}`);
+
+// 배열의 값을 for문을 이용해 모두 출력
+
+/*
+subject[i] : 11
+subject[i] : 13
+subject[i] : html
+subject[i] : JAVASCRIPT
+subject[i] : jquery
+*/
+for(let i=0; i<subject.length;i++) {
+    console.log(`subject[i] : ${subject[i]}`);
+}
+
+// 배열에 요소 추가 : push('jsp');
+let newLength = subject.push('jsp');
+console.log(`newLength : ${newLength}`);
+
+for(let i=0; i<subject.length;i++) {
+    console.log(`subject[i] : ${subject[i]}`);
+}

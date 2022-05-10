@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/studyhtml5/favicon.ico">
+<!--스타일 시트 -->
+<style type="text/css">
+
+</style>
+
+<title>Insert title here</title>
+
+<!--자바스크립트 코드 -->
+<script type="text/javascript">
+  
+</script>
+</head>
+<body>
+   <h2></h2>
+   <hr/>
+   <table>
+	   <form action="#" name="frm1">
+	       <tr>
+	         <td><label>아이디</label></td>
+	         <td><input type="text"/></td>
+	       </tr>
+	       <tr>
+	         <td><label>비번</label></td>
+	         <td><input type="password"/></td>
+	       </tr>
+	     
+	     
+	   </form>
+   </table>
+</body>
+</html>

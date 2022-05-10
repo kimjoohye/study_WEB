@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<!--스타일 시트 -->
+<style type="text/css">
+    div {
+	    height: 100px;
+	    background: #718c00;
+    }
+</style>
+
+<title>Insert title here</title>
+<!--자바스크립트 코드 -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+   <h2>이벤트 객체</h2>
+   <hr/>
+   <button id="btn">클릭</button>
+   <div id="area">여기에 마우스 왼쪽, 가운데, 오른쪽 버튼 클릭</div>
+</body>
+</html>

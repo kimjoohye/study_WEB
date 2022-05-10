@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<!--스타일 시트 -->
+<style type="text/css">
+
+</style>
+
+<title>Insert title here</title>
+<!--자바스크립트 코드 -->
+<script type="text/javascript">
+  let browser = window.navigator.userAgent;
+  console.log(`userAgent : ${browser}`);
+  
+  // 브라우저 정보 추출
+  function getBrowserInfo(){
+	let agent = window.navigator.userAgent.toUpperCase();
+	console.log('agent: '+agent);
+	if(agent.indexof('EDG') >= 0) {
+        return 'EDG';
+    }else if(agent.indexOf('CHROME') >= 0) {
+		return 'CHROME';
+	}else {
+		return '';
+	}
+  }
+  
+  window.onload = function() {
+	  let btn = document.getElementById('btn');
+	  btn.onclick = function() {
+		// console.log('btn.onclick');  
+		
+		// agent: MOZILLA/5.0 (WINDOWS NT 10.0; WIN64; X64) APPLEWEBKIT/537.36 (KHTML, LIKE GECKO)
+		// CHROME/100.0.4896.127 SAFARI/537.36
+		alert(getBrowserInfo());
+	  };
+  };
+</script>
+</head>
+<body>
+   <h2>navigator</h2>
+   <hr/>
+   <button id="btn">브라우저</button>
+</body>
+</html>

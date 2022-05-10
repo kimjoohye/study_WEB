@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<!--스타일 시트 -->
+<style type="text/css">
+
+</style>
+
+<title>Insert title here</title>
+<!--자바스크립트 코드 -->
+<script type="text/javascript">
+  window.onload() = function() {
+	let bt = document.getElementById('bt');  
+	bt.click = function name() {
+		window.open('https://cafe.daum.net/pcwk', 'pcwk', 'width=600, height=400')
+	}
+  };
+</script>
+</head>
+<body>
+   <h2>open() 메서드는 새로운 윈도우를 만들어 주는 메서드</h2>
+   <hr/>
+   <button id="bt">새창열기</button>
+   
+   
+</body>
+</html>

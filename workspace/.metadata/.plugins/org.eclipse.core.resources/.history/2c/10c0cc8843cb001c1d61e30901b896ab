@@ -1,0 +1,4 @@
+'use strict';
+
+// for...in
+let city = ['미국', '영국', '일본', '']

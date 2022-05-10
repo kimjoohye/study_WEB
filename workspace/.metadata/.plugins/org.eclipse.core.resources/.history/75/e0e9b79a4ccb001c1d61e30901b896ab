@@ -1,0 +1,9 @@
+'use strict';
+// 1~45 사이에 중복되지 않게 6개의 숫자를 출력하시오
+
+let sixNum = [];
+
+for(let i=1; i<=45; i++) {
+    sixNum.push(i);
+}
+

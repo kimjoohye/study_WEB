@@ -1,0 +1,14 @@
+'use strict';
+
+// Date객체
+let dateObj = new Date();
+
+let dateInfo = {
+    year : dateObj.getFullYear(), // 년도 4자리
+    month : dateObj.getMonth()+1; // 월 0~11 + 1
+};
+
+for(let i in dateInfo) {
+    console.log(`${i} : ${dateInfo[i]}`); // year : 2022
+    console.log();
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<!--스타일 시트 -->
+<style type="text/css">
+
+</style>
+
+<title>Insert title here</title>
+<!--자바스크립트 코드 -->
+<script type="text/javascript">
+  let btn = document.getElementById('btnSave');
+</script>
+</head>
+<body>
+   <h2>표준 이벤트 모델</h2>
+   <hr/>
+   <input type="button" value="표준이벤트" id="btnSave" />
+   
+   
+</body>
+</html>
