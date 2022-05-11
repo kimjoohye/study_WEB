@@ -1,9 +1,0 @@
-'use strict';
-
-let subject  = [11, 13,'html', 'javascript', 'jquery'];
-
-// subject[0] : 11
-console.log(`subject[0] : ${subject[0]}`);
-
-// 배열 길이 : subject.length : 5
-console.log(`subject.length : ${subject.length}`);
