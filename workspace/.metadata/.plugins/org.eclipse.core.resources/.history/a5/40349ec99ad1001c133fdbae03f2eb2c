@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/studyhtml5/favicon.ico">
+<meta http-equiv="Expires" content="Mon, 01 Jan 2020 00:00:01 GMT"> 
+<!--위의 명시된 날짜 이후가 되면 페이지가 캐싱되지 않는다.(2020년 이후 쭉 ) --> 
+
+<meta http-equiv="Expires" content="-1"> 
+<!--캐시된 페이지가 만료되어 삭제되는 시간을 정의하나 특별한 경우가 아니면 -1로 설정--> 
+
+<meta http-equiv="Pragma" content="no-cache"> 
+<!--페이지 로드시마다 페이지를 캐싱하지 않는다.(HTTP 1.0)-->  
+
+<meta http-equiv="Cache-Control" content="no-cache"> 
+<!--페이지 로드시마다 페이지를 캐싱하지 않는다.(HTTP 1.1)--> 
+
+<!--reset 스타일시트 -->
+<!--<link rel="stylesheet" type="text/css" href="/studyhtml5/asset/css/reset.css">-->
+<!--스타일 시트 -->
+<style type="text/css">
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family : "돋움";
+    font-size: 12px;
+    color: #333;
+    height: 100%;
+  }
+  
+  a{
+    font-family : "돋움";
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    line-height: 20px;
+  }
+  
+  #select {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 100; /* 1이 우선순위가 낮다. */
+  }
+  
+  #select a {
+    display: block;
+    height: 20px;
+  }
+  
+  #select #title {
+    border: 1px solid #ccc;
+  }
+  
+  #select #title a {
+    background: url("/studyhtml5/imgs/icon.gif") no-repeat 100% 0;
+  }
+  
+  #select #title a.on {
+    background-position: 100% -20px;
+  }
+  
+  #select #list {
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: -94px;
+  }
+</style>
+
+<title>Insert title here</title>
+
+<!-- jquery -->
+<script type="text/javascript" src="/studyhtml5/asset/js/jquery-1.12.4.js"></script>
+</head>
+<body>
+   <div id="select">
+    <div id="title"><a href="#">사이트이동</a></div>
+    <ul id="list">
+      <li><a href="https://www.naver.com/" target="_blank" title="새탭">네이버</a></li>
+      <li><a href="https://www.daum.net/" target="_blank" title="새탭">다음</a></li>
+      <li><a href="https://cafe.daum.net/pcwk" target="_blank" title="새탭">CAFE</a></li>
+    </ul>
+   </div>
+   <div id="con"></div>
+   <!--자바스크립트 코드 -->
+<script type="text/javascript">
+   $(document).ready(function(){
+       console.log('PCWK *** document'); 
+   });
+</script>
+</body>
+</html>
