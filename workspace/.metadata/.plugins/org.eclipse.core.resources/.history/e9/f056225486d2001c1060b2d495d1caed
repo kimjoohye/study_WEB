@@ -1,0 +1,14 @@
+package com.pcwk.cclass.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+public class HelloServlet extends HttpServlet {
+
+	public HelloServlet() {
+		System.out.println("------------------");
+		System.out.println("-HelloServlet()-");
+		System.out.println("------------------");
+	}
+	
+	
+}
