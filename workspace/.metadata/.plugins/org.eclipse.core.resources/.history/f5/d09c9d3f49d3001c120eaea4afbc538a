@@ -22,7 +22,6 @@
 	  <input type="checkbox" name="lang" value="20">oracle<br/>
 	  <input type="checkbox" name="lang" value="30">jsp<br/>
 	  <input type="checkbox" name="lang" value="40">jquery<br/>
-	  <input type="submit" value="전송">
 	</form>
 
 </body>

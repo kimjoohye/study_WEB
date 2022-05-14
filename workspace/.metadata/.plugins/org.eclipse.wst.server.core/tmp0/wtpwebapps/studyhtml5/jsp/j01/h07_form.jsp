@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>form 요청</h2>d
+	<h2>form 요청</h2>
 	<hr/>
 
 	<!-- 
@@ -22,6 +22,7 @@
 	  <input type="checkbox" name="lang" value="20">oracle<br/>
 	  <input type="checkbox" name="lang" value="30">jsp<br/>
 	  <input type="checkbox" name="lang" value="40">jquery<br/>
+	  <input type="submit" value="전송">
 	</form>
 
 </body>

@@ -1,0 +1,6 @@
+127.0.0.1 - - [14/May/2022:14:45:56 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [14/May/2022:14:45:56 +0900] "GET /studyhtml5/jsp/j01/j07_form_request.jsp HTTP/1.1" 500 2483
+0:0:0:0:0:0:0:1 - - [14/May/2022:14:45:57 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [14/May/2022:14:46:19 +0900] "GET /studyhtml5/jsp/j01/h07_form.jsp HTTP/1.1" 200 771
+0:0:0:0:0:0:0:1 - - [14/May/2022:14:51:50 +0900] "GET /studyhtml5/jsp/j01/h07_form.jsp HTTP/1.1" 200 811
+0:0:0:0:0:0:0:1 - - [14/May/2022:14:51:58 +0900] "GET /studyhtml5/jsp/j01/j07_form_request.jsp?userNm=ss&userCell=ss&lang=10&lang=20&lang=30 HTTP/1.1" 200 416
