@@ -13,10 +13,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="&lt;%=contPath %&gt;"/>
 		<list key="findhistory">
+			<item value="/studyhtml5"/>
+			<item value="Create"/>
 			<item value="triangle01"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&lt;%=contPath %&gt;"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

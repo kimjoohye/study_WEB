@@ -1,0 +1,14 @@
+package com.pcwk.cmn;
+
+public class StringUtil {
+	
+	/**
+	 * request null 처리 함수
+	 * @param input : 입력
+	 * @param replace : 치환
+	 * @return
+	 */
+	public static String nvl(String input, String replace) {
+		
+	}
+}
