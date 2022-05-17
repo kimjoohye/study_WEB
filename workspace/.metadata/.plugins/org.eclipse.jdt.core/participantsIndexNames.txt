@@ -37,3 +37,5 @@ C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\js
 \studyhtml5\src
 C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\269766111.index
 \studyhtml5\src
+C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1074399957.index
+\studyhtml5\src
