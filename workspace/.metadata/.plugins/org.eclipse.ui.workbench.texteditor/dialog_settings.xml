@@ -13,8 +13,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="&lt;%=contPath %&gt;"/>
+		<item key="selection" value="param"/>
 		<list key="findhistory">
+			<item value="param"/>
 			<item value="/studyhtml5"/>
 			<item value="Create"/>
 			<item value="triangle01"/>

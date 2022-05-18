@@ -55,6 +55,14 @@ public class BoardController extends HttpServlet {
 		
 		// DAO분기
 		switch(workDiv) {
+		case "doDelete":
+			doDelete(request, response);
+			break;
+			
+		case "doSelectOne":
+			doSelectOne(request, response);
+			break;
+			
 		case "moveToReg":
 			moveToReg(request, response);
 			break;
@@ -67,6 +75,75 @@ public class BoardController extends HttpServlet {
 			doSave(request, response);
 			break;
 		}
+	}
+	
+	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// super.doDelete(request, response);
+		LOG.debug("=============================");
+		LOG.debug("=doDelete()=");
+		LOG.debug("=============================");
+		BoardVO param = new BoardVO();
+		
+		String seq = StringUtil.nvl(request.getParameter("seq"), "-1");
+		LOG.debug("-seq-"+seq);
+		// param read
+		
+		// param to SearchVO
+		param.setSeq(Integer.parseInt(seq));
+		LOG.debug("-param-"+param);
+		
+		// DAO 호출 : BoardVO
+		int flag = this.boardDao.doDelete(param);
+		MessageVO msgVO = new MessageVO();
+		
+		String msg = "";
+		if(1 == flag) {
+			msg = "삭제되었습니다.";
+		}else {
+			msg = "삭제 실패!";
+		}
+		
+		msgVO.setMessageId(String.valueOf(flag));
+		msgVO.setMsgContents(msg);
+		
+		// MessageVO => json
+		String jsonString = new Gson().toJson(msgVO);
+		LOG.debug("-jsonString-"+jsonString);
+
+		response.setContentType("text/html;charset=UTF-8");
+		PrintWriter out = response.getWriter();
+		out.print(jsonString);
+		
+		// BoardDAO 처리 return 받아 화면으로 전송
+	}
+	
+	protected void doSelectOne(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		LOG.debug("=============================");
+		LOG.debug("=doSelectOne()=");
+		LOG.debug("=============================");
+		BoardVO param = new BoardVO();
+		
+		// param read
+		String seq = StringUtil.nvl(request.getParameter("seq"), "-1");
+		LOG.debug("-------------------------");
+		LOG.debug("-seq-"+seq);
+		LOG.debug("-------------------------");
+		
+		// param to SearchVO
+		param.setSeq(Integer.parseInt(seq));
+		LOG.debug("-param-"+param);
+		
+		// DAO 호출 : BoardVO
+		BoardVO outVO = this.boardDao.doSelectOne(param);
+		LOG.debug("-outVO-"+outVO);
+		
+		// BoardDAO 처리 return 받아 화면으로 전송
+	    request.setAttribute("vo", outVO);
+	    RequestDispatcher dispatcher = request.getRequestDispatcher("/board/board_mod.jsp");
+		dispatcher.forward(request, response);
+		
+		// board_mod.jsp
+		
 	}
 	
 	protected void moveToReg(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

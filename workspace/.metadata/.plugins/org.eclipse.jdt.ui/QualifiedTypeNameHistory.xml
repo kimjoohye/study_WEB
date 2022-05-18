@@ -8,12 +8,12 @@
 <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.pcwk.board.BoardDao"/>
-<fullyQualifiedTypeName name="com.pcwk.board.BoardVO"/>
-<fullyQualifiedTypeName name="com.pcwk.cmn.StringUtil"/>
 <fullyQualifiedTypeName name="com.pcwk.cmn.MessageVO"/>
-<fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.pcwk.cmn.SearchVO"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.pcwk.board.BoardVO"/>
+<fullyQualifiedTypeName name="com.pcwk.cmn.StringUtil"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
 </qualifiedTypeNameHistroy>
