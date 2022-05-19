@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="com.pcwk.board.BoardVO"/>
 <fullyQualifiedTypeName name="com.pcwk.cmn.StringUtil"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

@@ -13,8 +13,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="param"/>
+		<item key="selection" value="doSelect"/>
 		<list key="findhistory">
+			<item value="doSelect"/>
 			<item value="param"/>
 			<item value="/studyhtml5"/>
 			<item value="Create"/>

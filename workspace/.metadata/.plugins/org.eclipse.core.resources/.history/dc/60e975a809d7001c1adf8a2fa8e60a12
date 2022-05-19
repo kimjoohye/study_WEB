@@ -1,0 +1,13 @@
+package com.pcwk.j04;
+
+public class MemberInfo {
+	private String id;  // 회원ID
+	private String password;  // 회원 비번
+	private String name;  // dlfma
+	private String registerDate;  // 가입일
+	private String email;  // 이메일
+	
+	public MemberInfo() {
+		
+	}
+}
