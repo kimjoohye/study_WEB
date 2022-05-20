@@ -186,3 +186,8 @@
 0:0:0:0:0:0:0:1 - - [19/May/2022:15:31:03 +0900] "GET /studyhtml5/board/board.do?work_div=doSelectOne&seq=3784531&pageNum=1&searchDiv=&searchWord=&pageSize=10 HTTP/1.1" 200 6142
 0:0:0:0:0:0:0:1 - - [19/May/2022:15:31:03 +0900] "GET /studyhtml5/asset/js/jquery-1.12.4.js HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [19/May/2022:15:31:44 +0900] "GET /studyhtml5/board/board.do?work_div=doSelectOne&seq=3784531&pageNum=1&searchDiv=&searchWord=&pageSize=10 HTTP/1.1" 200 6142
+127.0.0.1 - - [19/May/2022:15:49:50 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/May/2022:15:49:51 +0900] "GET /studyhtml5/board/board_list.jsp HTTP/1.1" 200 5774
+0:0:0:0:0:0:0:1 - - [19/May/2022:16:02:33 +0900] "GET /studyhtml5/board/board_list.jsp HTTP/1.1" 200 5774
+0:0:0:0:0:0:0:1 - - [19/May/2022:16:02:33 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [19/May/2022:16:02:46 +0900] "GET /studyhtml5/board/board.do?work_div=doRetrieve&seq=&pageNum=&searchDiv=&searchWord=&pageSize=10 HTTP/1.1" 200 9684

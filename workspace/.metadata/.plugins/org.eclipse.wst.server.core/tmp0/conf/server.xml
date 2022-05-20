@@ -152,7 +152,12 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\studyhtml5" path="/studyhtml5" reloadable="true" source="org.eclipse.jst.jee.server:studyhtml5"/></Host>
+      <Context docBase="C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\DCOM_20220127\03_WEB\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\studyhtml5" path="/studyhtml5" reloadable="true" source="org.eclipse.jst.jee.server:studyhtml5">
+                                 --&gt;
+  <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+  <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/oracle" password="pcwk" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:oracle:thin:@192.168.3.101:1521:xe" username="scott"/> 
+</Context></Host>
     </Engine>
   </Service>
 </Server>

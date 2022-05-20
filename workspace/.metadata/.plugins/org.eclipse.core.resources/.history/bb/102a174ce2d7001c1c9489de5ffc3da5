@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <!-- 기존 이름에 새로운 데이터를 넣어서 보내면 수정! -->
+	<h2>쿠키수정</h2>
+	<hr/>
+
+</body>
+</html>

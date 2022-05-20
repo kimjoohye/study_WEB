@@ -17,4 +17,7 @@
 <fullyQualifiedTypeName name="com.pcwk.cmn.StringUtil"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="javax.naming.Context"/>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
 </qualifiedTypeNameHistroy>

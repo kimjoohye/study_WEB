@@ -1,0 +1,10 @@
+package studyhtml5;
+
+public class UserVO {
+	
+	private String userId; // 사용자 id
+	private String passwd; // 비밀번호
+	private String name; // 이름
+	
+	public UserVO() {}
+}
