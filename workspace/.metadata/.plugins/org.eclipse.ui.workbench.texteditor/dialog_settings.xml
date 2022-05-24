@@ -13,8 +13,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="doRetrieve"/>
+		<item key="selection" value="td"/>
 		<list key="findhistory">
+			<item value="th"/>
+			<item value="vo"/>
 			<item value="doRetrieve"/>
 			<item value="doSelect"/>
 			<item value="param"/>
@@ -23,11 +25,12 @@
 			<item value="triangle01"/>
 		</list>
 		<list key="replacehistory">
+			<item value="td"/>
 			<item value="&lt;%=contPath %&gt;"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1728"/>
+		<item key="DIALOG_X_ORIGIN" value="1004"/>
 		<item key="DIALOG_Y_ORIGIN" value="458"/>
 		<item key="DIALOG_WIDTH" value="393"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
